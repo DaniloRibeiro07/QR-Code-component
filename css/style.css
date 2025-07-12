@@ -22,36 +22,28 @@ main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  max-width: min(90vw, 450px);
+  max-width: min(90vw, 320px);
   background-color: white;
   border-radius: 20px;
-  padding: 20px;
+  padding: 16px;
 }
 
 h1 {
-  font-size: clamp(20px, 7vw, 32px);
+  font-size: clamp(20px, 7vw, 20px);
   font-weight: 700;
   text-align: center;
-  margin: 10px 0px;
+  margin: 30px 20px 20px;
 }
 
 p {
-  font-size: clamp(16px, 5vw, 24px);
+  font-size: clamp(16px, 5vw, 15px);
   font-weight: 400;
   color: hsl(216, 15%, 48%);
   text-align: center;
+  margin: 0 20px 40px;
 }
 
 img {
   border-radius: 20px;
   max-width: 100%;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
