@@ -8,6 +8,7 @@
   font-style: normal;
   --pastel-sky-blue: hsl(212, 45%, 89%);
   --slate-blue-gray: hsl(216, 15%, 48%);
+  --midnight-navyhsl: hsl(218, 44%, 22%);
 }
 
 body {
@@ -31,6 +32,7 @@ main {
 }
 
 h1 {
+  color: var(--midnight-navyhsl);
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -38,11 +40,11 @@ h1 {
 }
 
 p {
-  font-size: 15px;
-  font-weight: 400;
   color: var(--slate-blue-gray);
+  font-size: 0.938rem;
+  font-weight: 400;
   text-align: center;
-  margin: 0 1.25rem 2.5rem;
+  margin: 0 1.25rem 1.438rem;
 }
 
 img {
